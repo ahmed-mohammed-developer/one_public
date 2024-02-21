@@ -64,11 +64,11 @@ body {
   text-align: center;
   color: var(--icon--color);
 }
-@media (max-width: 767px) {
-  .spacial-heading {
+@media (width < 767px) {
+  h2.special-heading {
     font-size: 60px;
   }
-  .spacial-heading + p {
+  .special-heading + p {
     margin-top: -15px;
   }
 }
